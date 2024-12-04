@@ -1,0 +1,7 @@
+torch
+numpy
+nltk
+matplotlib
+seaborn
+scikit-learn
+python-docx
