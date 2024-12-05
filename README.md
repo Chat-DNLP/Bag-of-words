@@ -1,84 +1,80 @@
 # Document Similarity with Bag-of-Words and Cosine Similarity
 
-## 📄 Descripción del Proyecto
-Este proyecto implementa un análisis de similitud entre documentos utilizando las técnicas de **Bag-of-Words (BoW)** y **TF-IDF**, combinadas con la métrica de **cosine similarity**. El objetivo es explorar la relación entre el contenido de los documentos y su similitud mediante representaciones vectoriales, para identificar patrones y temáticas comunes.
+## 📄 Project Description
+This project implements a document similarity analysis using the **Bag-of-Words (BoW)** and **TF-IDF** techniques, combined with the **cosine similarity** metric. The objective is to explore the relationship between the content of documents and their similarity using vector representations, in order to identify common patterns and themes.
 
-Los documentos analizados tratan temas relacionados con tecnología móvil y vehículos eléctricos, lo que permite observar tendencias de similitud entre documentos que comparten estas temáticas.
-
----
-
-## 🎯 Objetivo
-- Construir representaciones vectoriales de documentos mediante **Bag-of-Words** y **TF-IDF**.
-- Calcular la similitud entre documentos usando la métrica de **cosine similarity**.
-- Analizar los resultados y observar relaciones entre los temas tratados en los documentos.
+The documents analysed deal with topics related to mobile technology and electric vehicles, which allows us to observe trends of similarity between documents that share these themes.
 
 ---
 
-## 🛠️ Herramientas y Bibliotecas Utilizadas
+## 🎯 Objective
+- Build vector representations of documents using **Bag-of-Words** and **TF-IDF**.
+- Calculate the similarity between documents using the **cosine similarity** metric.
+- Analyse the results and observe relationships between the topics covered in the documents.
+
+---
+
+## 🛠️ Tools and Libraries Used
 - **Python**
-- **NLTK** para procesamiento de texto
-- **NumPy** para manipulación de vectores
-- **PyTorch** para cálculos de similitud
-- **Scikit-learn** para el modelo TF-IDF
-- **Matplotlib** y **Seaborn** para visualización
+- **NLTK** for text processing
+- **NumPy** for vector manipulation
+- **PyTorch** for similarity calculations
+- **Scikit-learn** for the TF-IDF model
+- **Matplotlib** and **Seaborn** for visualisation
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 ```
 root/
-├── docs/                       # Carpeta que contiene los documentos de entrada en formato .docx
-├── results/                    # Carpeta que contiene las imagenes de los resultados
-├── main.py                     # Script principal del proyecto
-├── requirements.txt            # Lista de dependencias del proyecto
-├── README.md                   # Archivo de descripción (este archivo)
+├─── docs/                # Folder containing input documents in .docx format
+├─── results/             # Folder containing the results images
+├─── main.py              # Main script of the project
+├─── requirements.txt     # List of project dependencies
+├──── README.md           # Description file (this file)
 ```
 
----
-
-## 🚀 Cómo Ejecutar el Proyecto
-### 1. Pre-requisitos
-Asegúrate de tener instalado Python 3.8+ y las dependencias del proyecto. Para instalarlas, usa:
+## 🚀 How to Run the Project
+### 1. Prerequisites
+Make sure you have Python 3.8+ and the project dependencies installed. To install them, use:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Ejecución
-Ejecuta el archivo principal del proyecto:
+### 2. Execute
+Executes the main project file:
 
 ```bash
 python main.py
 ```
 
-### 3. Resultados
-El proyecto generará:
-- Una matriz de similitud calculada con **Bag-of-Words** y otra con **TF-IDF**.
-- Gráficos de calor (heatmaps) de las matrices de similitud.
-- Un gráfico de barras con las palabras más relevantes según **TF-IDF**.
+### 3. Results
+The project will generate:
+- A similarity matrix calculated with **Bag-of-Words** and another with **TF-IDF**.
+- Heatmaps of the similarity matrices.
+- A bar chart with the most relevant words according to **TF-IDF**.
 
 ---
 
-## 📊 Ejemplo de Resultados
-### Heatmap de Similitud (Bag-of-Words)
-Se genera un mapa de calor que muestra la similitud entre documentos usando la representación **Bag-of-Words**.
+## 📊 Example of Results
+### Similarity Heatmap (Bag-of-Words)
+A heatmap showing the similarity between documents is generated using the **Bag-of-Words** representation.
 
 <div align= "center"">
-    <h2>Heatmap de Similitud BOW</h2>
-    <img src="./results/similarity_matrix_heat_map.png" alt="Heatmap de Similitud BOW" style="max-width: 100%; height: auto;">
+    <h2>BoW Similarity Heatmap</h2>
+    <img src="./results/similarity_matrix_heat_map.png" alt="BoW Similarity Heatmap" style="max-width: 100%; height: auto;">
 </div>
 
-### Heatmap de Similitud (TF-IDF)
+### (TF-IDF) Similarity Heatmap
 Similitud entre documentos utilizando vectores TF-IDF.
 
 <div align= "center"">
-    <h2>Heatmap de Similitud (TF-IDF)</h2>
-    <img src="./results/TF-IDF_similarity_matrix_heat_map.png" alt="Heatmap de Similitud TF-IDF" style="max-width: 100%; height: auto;">
+    <h2>(TF-IDF) Similarity Heatmap</h2>
+    <img src="./results/TF-IDF_similarity_matrix_heat_map.png" alt="(TF-IDF) Similarity Heatmap" style="max-width: 100%; height: auto;">
 </div>
 
-## 🧑‍💻 Créditos
-Creado por:
+## 🧑‍💻 Credits
+Created by:
 - [Susana Suárez](https://github.com/susanasrez).
 - [Mara Pareja](https://github.com/marapareja17).
-```
-
